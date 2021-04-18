@@ -25,8 +25,9 @@ from selenium.webdriver.remote.webelement import WebElement
 
 class PointerActions(Interaction):
 
-    def __init__(self, source=None, duration=250):
+    def __init__(self, source=None, duration=50):
         """
+        自行修改该部分代码，以便实现快速的滑动
         Args:
         - source: PointerInput instance
         - duration: override the default 250 msecs of DEFAULT_MOVE_DURATION in source
